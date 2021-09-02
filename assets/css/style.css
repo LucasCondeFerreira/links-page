@@ -1,0 +1,147 @@
+/******************************
+
+Estilização Base
+
+*/
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#fundo {
+    background: url(/assets/imagens/fundo\ \(1\).svg) no-repeat top center;
+    opacity: 0.25;
+    width: 100% !important;
+    height: 800px !important;
+    position: absolute !important;
+    z-index: -1 !important;
+}
+
+/* Fontes:
+
+    font-family: 'Sacramento', cursive;
+    font-family: 'Style Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+*/
+
+/******************************
+
+Estilização do corpo
+
+*/
+
+#body {
+    height: 600px;
+}
+
+/******************************
+
+Estilização da foto e textos abaixo da foto
+
+*/
+
+.tamanho-cabecalho {
+    width: 65% !important;
+    margin: 0 auto !important;
+}
+
+.posicao-textos {
+    margin-top: 2.5% !important;
+    margin-bottom: 3% !important;
+}
+
+.posicao-foto {
+    padding-top: 15% !important;
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 61px;
+}
+
+.texto-1 {
+    font-family: 'Amatic SC';
+    font-weight: 600 !important;
+    color: #bf784e !important;
+    font-size: 2.5em !important;
+}
+
+.texto-2 {
+    font-family: 'Raleway', sans-serif;
+    color: #734b43 !important;
+    font-weight: 600 !important;
+    font-size: 0.9em !important;
+}
+
+/******************************
+
+Estilização do grupo de links
+
+*/
+
+@media screen and (max-width: 600px) {
+    
+
+    .posicao-botoes {
+        top: 5px !important;
+        position: relative;
+    }
+
+    .botao {
+        width: 65% !important;
+        padding: 2% 1% !important;
+        margin: 5% 0% !important;
+
+        font-family: 'Raleway', sans-serif;
+        color: #734b43 !important;
+        font-weight: 600 !important;
+        font-size: 0.94em !important;
+
+        border: none !important;
+        background: #f2e7dc !important;
+        box-shadow: none !important;
+        border-radius: 31px !important;
+    }
+
+    .botao:hover {
+        color: #f2e7dc !important;
+        background: #bf784e !important;
+        box-shadow: none !important;
+    }
+
+    .botao:focus {
+        color: #f2e7dc !important;
+        background: #bf784e !important;
+        box-shadow: none !important;
+    }
+}
+
+
+
+/******************************
+
+Estilização do rodapé
+
+*/
+
+.rodape {
+    width: 100% !important;
+    margin: 20% 0% 0% 0% !important;
+    padding: 0% 0% 0% 0% !important;
+    background: none;
+}
+
+.texto-rodape {
+    width: 80% !important;
+    font-family: 'Amatic SC';
+    font-weight: 600 !important;
+    margin-left: 10% !important;
+    padding-top: 5% !important;
+    color: #bf784e !important;
+    border-top: #bf784e solid 1px !important;
+    font-size: 2.2em !important;
+}
